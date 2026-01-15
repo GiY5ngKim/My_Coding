@@ -136,3 +136,16 @@ for문에서 v의 원소에 따라 값 타임 자동 할당
 ostringstream out;
 out << "Hello" << "\n" << "World" << "\n"; // 여러 문자열을 << 연산자로 이어붙여서 저장
 cout << out.str(); // str()로 한 번에 출력
+
+"set배열 vector 변환" => set은 트리기반이라 몇 번째 원소 인지 알 수 없음
+vector<int> all(uniq.begin(), uniq.end()); // set uniq의 원소를 모두 포함하는 vector all 생성
+int rank = lower_bound(all.begin(), all.end(), target) - all.begin() + 1; // all에서 target의 위치(몇 번째 원소인지) 찾기
+-> lower_bound는 이터레이터(포인터 개념)이므로 벡터의 시작 위치를 빼줘야 정수형 위치가 됨
+
+"stringstream" => 문자열을 단어 단위로 쪼개서 읽을 때 사용
+string line; 
+    getline(cin, line);
+    stringstream ss(line); // line 문자열을 단어 단위로 쪼개기 위해 stringstream에 삽입
+    string w;
+    while (ss >> w) sen[i].push_back(w); // 공백 포함 전체 문장을 stringstream에 넣고 >> 연산자로 단어 단위로 읽음
+    cin.ignore(numeric_limits<streamsize>::max(), '\n'); // string stream 이전에 cin으로 값 입력받을 때 남아있는 개행문자 제거
