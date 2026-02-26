@@ -1,0 +1,19 @@
+#기본 설정
+#spring:                      # Spring 설정 루트
+#  profiles:                  # 실행 환경(profile) 설정
+#    active: local             # 기본 실행 환경을 local로 지정
+#server:                      # 서버 설정 루트
+#  port: 8080                 # 서버 실행 포트
+
+spring: # Spring 설정 루트
+  profiles: # 실행 프로필 설정
+    active: local # 기본 프로필 local
+
+server: # 서버 설정 루트
+  port: 8080 # 서버 포트 8080
+
+jwt: # JWT 설정 루트
+  secret: "CHANGE_ME_LOCAL_SECRET_KEY_32+_CHARS" # 서명 키(로컬용, 32자 이상 권장)
+  access-token-expiration-ms: 3600000 # 액세스 토큰 만료(1시간)
+  header: "Authorization" # 토큰을 담을 헤더 이름
+  token-prefix: "Bearer " # Authorization 헤더 값의 접두사

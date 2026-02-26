@@ -1,0 +1,16 @@
+spring:                                      # Spring 설정 루트
+  datasource:                                # DB 연결 설정
+    url: jdbc:h2:mem:testdb                  # H2 인메모리 DB URL
+    driver-class-name: org.h2.Driver         # H2 JDBC 드라이버
+    username: sa                             # H2 기본 사용자
+    password:                               # H2 기본 비밀번호(로컬)
+  jpa:                                      # JPA 동작 설정
+    hibernate:                              # Hibernate 설정 그룹
+      ddl-auto: create                      # 실행 시 테이블 자동 생성
+    show-sql: true                          # SQL 콘솔 출력
+    properties:                             # 추가 Hibernate 속성
+      hibernate:                            # Hibernate 네임스페이스
+        format_sql: true                    # SQL 포맷팅 출력
+  h2:                                       # H2 전용 설정
+    console:                                # H2 콘솔 설정
+      enabled: true                         # H2 웹 콘솔 활성화

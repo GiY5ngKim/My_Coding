@@ -1,0 +1,8 @@
+spring:                                      # Spring 설정 루트
+  datasource:                                # 운영 DB 연결 설정
+    url: ${DB_URL}                           # DB URL(환경변수)
+    username: ${DB_USERNAME}                 # DB 사용자(환경변수)
+    password: ${DB_PASSWORD}                 # DB 비밀번호(환경변수)
+  jpa:                                      # JPA 동작 설정
+    hibernate:                              # Hibernate 설정 그룹
+      ddl-auto: validate                    # 스키마 변경 없이 검증만
