@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="296aa64c-35b2-4b0d-9578-bea64e1df00b" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/p10171/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p10172/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p2525/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p2742/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p2884/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="296aa64c-35b2-4b0d-9578-bea64e1df00b" name="변경" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,6 +36,9 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="3AYdiCYpDul08ty5WtG89VIBhKT" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
