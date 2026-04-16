@@ -1,0 +1,10 @@
+github:
+  reviews:
+    enabled: true
+    trigger: automatic
+    ignored_files:
+      - "**/dist/**"
+      - "**/node_modules/**"
+      - "package-lock.json"
+      - "yarn.lock"
+      - "*.md"

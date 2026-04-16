@@ -4,12 +4,136 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="296aa64c-35b2-4b0d-9578-bea64e1df00b" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/p10171/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p10172/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p2525/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p2742/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/p2884/Main.java" afterDir="false" />
+    <list default="true" id="2325706b-b954-4a54-9bcb-0e9d95b73605" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/src/boj_1205_ranking/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/boj_23971_ZOAC4/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/boj_2444_print_stars7/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/레퍼런스/사진 공유 서비스/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/레퍼런스/사진 공유 서비스/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/레퍼런스/사진 공유 서비스/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/레퍼런스/사진 공유 서비스/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/레퍼런스/사진 공유 서비스/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/레퍼런스/사진 공유 서비스/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/레퍼런스/사진 공유 서비스/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/레퍼런스/사진 공유 서비스/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/레퍼런스/사진 공유 서비스/src/main/java/com/cat/picshare/PicshareApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/레퍼런스/사진 공유 서비스/src/main/java/com/cat/picshare/auth/controller/AuthController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/레퍼런스/사진 공유 서비스/src/main/java/com/cat/picshare/auth/dto/AuthLoginRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/레퍼런스/사진 공유 서비스/src/main/java/com/cat/picshare/auth/dto/AuthLoginResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/레퍼런스/사진 공유 서비스/src/main/java/com/cat/picshare/auth/handler/AuthenticationEntryPointImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/레퍼런스/사진 공유 서비스/src/main/java/com/cat/picshare/auth/jwt/JwtAuthenticationFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/레퍼런스/사진 공유 서비스/src/main/java/com/cat/picshare/auth/jwt/JwtProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/레퍼런스/사진 공유 서비스/src/main/java/com/cat/picshare/auth/jwt/JwtTokenProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/레퍼런스/사진 공유 서비스/src/main/java/com/cat/picshare/common/TestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/레퍼런스/사진 공유 서비스/src/main/java/com/cat/picshare/common/exception/CustomException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/레퍼런스/사진 공유 서비스/src/main/java/com/cat/picshare/common/exception/ErrorCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/레퍼런스/사진 공유 서비스/src/main/java/com/cat/picshare/common/exception/ExceptionTestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/레퍼런스/사진 공유 서비스/src/main/java/com/cat/picshare/common/exception/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/레퍼런스/사진 공유 서비스/src/main/java/com/cat/picshare/common/exception/ValidationErrorDetail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/레퍼런스/사진 공유 서비스/src/main/java/com/cat/picshare/common/response/ApiError.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/레퍼런스/사진 공유 서비스/src/main/java/com/cat/picshare/common/response/ApiResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/레퍼런스/사진 공유 서비스/src/main/java/com/cat/picshare/config/security/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/레퍼런스/사진 공유 서비스/src/main/java/com/cat/picshare/user/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/레퍼런스/사진 공유 서비스/src/main/java/com/cat/picshare/user/dto/UserMeResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/레퍼런스/사진 공유 서비스/src/main/java/com/cat/picshare/user/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/레퍼런스/사진 공유 서비스/src/main/java/com/cat/picshare/user/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/레퍼런스/사진 공유 서비스/src/main/java/com/cat/picshare/user/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/레퍼런스/사진 공유 서비스/src/main/resources/application-local.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/레퍼런스/사진 공유 서비스/src/main/resources/application-prod.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/레퍼런스/사진 공유 서비스/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/레퍼런스/사진 공유 서비스/src/test/java/com/cat/picshare/PicshareApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/레퍼런스/팀매칭 초기세팅/BE-refactor-auth-flow/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/레퍼런스/팀매칭 초기세팅/BE-refactor-auth-flow/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/레퍼런스/팀매칭 초기세팅/BE-refactor-auth-flow/HELP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/레퍼런스/팀매칭 초기세팅/BE-refactor-auth-flow/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/레퍼런스/팀매칭 초기세팅/BE-refactor-auth-flow/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/레퍼런스/팀매칭 초기세팅/BE-refactor-auth-flow/docs/api/api.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/레퍼런스/팀매칭 초기세팅/BE-refactor-auth-flow/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/레퍼런스/팀매칭 초기세팅/BE-refactor-auth-flow/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/레퍼런스/팀매칭 초기세팅/BE-refactor-auth-flow/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/레퍼런스/팀매칭 초기세팅/BE-refactor-auth-flow/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/레퍼런스/팀매칭 초기세팅/BE-refactor-auth-flow/infra/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/레퍼런스/팀매칭 초기세팅/BE-refactor-auth-flow/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/레퍼런스/팀매칭 초기세팅/BE-refactor-auth-flow/src/main/java/com/catholic/moyeo/MeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/레퍼런스/팀매칭 초기세팅/BE-refactor-auth-flow/src/main/java/com/catholic/moyeo/MoYeoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/레퍼런스/팀매칭 초기세팅/BE-refactor-auth-flow/src/main/java/com/catholic/moyeo/TestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/레퍼런스/팀매칭 초기세팅/BE-refactor-auth-flow/src/main/java/com/catholic/moyeo/config/WebSecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/레퍼런스/팀매칭 초기세팅/BE-refactor-auth-flow/src/main/java/com/catholic/moyeo/member/domain/Member.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/레퍼런스/팀매칭 초기세팅/BE-refactor-auth-flow/src/main/java/com/catholic/moyeo/member/repository/MemberRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/레퍼런스/팀매칭 초기세팅/BE-refactor-auth-flow/src/main/java/com/catholic/moyeo/security/CookieProps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/레퍼런스/팀매칭 초기세팅/BE-refactor-auth-flow/src/main/java/com/catholic/moyeo/security/EmailDomainPolicy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/레퍼런스/팀매칭 초기세팅/BE-refactor-auth-flow/src/main/java/com/catholic/moyeo/security/JwtAuthenticationFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/레퍼런스/팀매칭 초기세팅/BE-refactor-auth-flow/src/main/java/com/catholic/moyeo/security/JwtProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/레퍼런스/팀매칭 초기세팅/BE-refactor-auth-flow/src/main/java/com/catholic/moyeo/security/OAuth2Props.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/레퍼런스/팀매칭 초기세팅/BE-refactor-auth-flow/src/main/java/com/catholic/moyeo/security/OAuth2SuccessHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/레퍼런스/팀매칭 초기세팅/BE-refactor-auth-flow/src/main/resources/application-local.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/레퍼런스/팀매칭 초기세팅/BE-refactor-auth-flow/src/main/resources/application-prod.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/레퍼런스/팀매칭 초기세팅/BE-refactor-auth-flow/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/레퍼런스/팀매칭 초기세팅/BE-refactor-auth-flow/src/main/resources/db/migration/V1__init.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/레퍼런스/팀매칭 초기세팅/BE-refactor-auth-flow/src/main/resources/db/migration/V2__create_app_user.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/레퍼런스/팀매칭 초기세팅/BE-refactor-auth-flow/src/test/java/com/catholic/Mo_Yeo/MoYeoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/레퍼런스/팀매칭 초기세팅/BE-refactor-auth-flow/src/test/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/프로젝트/SpringBootTeamMatching/로컬 작업용/MockRecruitMemberReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/프로젝트/SpringBootTeamMatching/로컬 작업용/Recruit_03122108.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/프로젝트/SpringBootTeamMatching/로컬 작업용/Recruit_Local.7z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/프로젝트/SpringBootTeamMatching/로컬 작업용/Recruit_modify03122124.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/프로젝트/SpringBootTeamMatching/로컬 작업용/member_03122108.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/프로젝트/SpringBootTeamMatching/회의록/1. 팀 1차 회의.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/프로젝트/SpringBootTeamMatching/회의록/2. MO-YEO 기능 명세서.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/프로젝트/SpringBootTeamMatching/회의록/3. 작업 흐름 정리.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/프로젝트/SpringBootTeamMatching/회의록/4. 사전 조율 안건.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/프로젝트/SpringBootTeamMatching/회의록/5. recruit 개선 사항.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/프로젝트/SpringBootTeamMatching/회의록/6. 현재 상황 정리.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/프로젝트/SpringBootTeamMatching/회의록/코드 분석/1. moyeo-config-WebSecurityConfig.java.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/프로젝트/SpringBootTeamMatching/회의록/코드 분석/10. resources-application-local.yml.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/프로젝트/SpringBootTeamMatching/회의록/코드 분석/11. resources-application-prod.yml.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/프로젝트/SpringBootTeamMatching/회의록/코드 분석/12. moyeo-security-jwtAuthenticationFilter.java.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/프로젝트/SpringBootTeamMatching/회의록/코드 분석/2. moyeo-member-domain-Member.java.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/프로젝트/SpringBootTeamMatching/회의록/코드 분석/3. moyeo-member - repository - memberRepository.java.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/프로젝트/SpringBootTeamMatching/회의록/코드 분석/4. moyeo-MeController.java.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/프로젝트/SpringBootTeamMatching/회의록/코드 분석/5. moyeo-MoyeoApplication.java.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/프로젝트/SpringBootTeamMatching/회의록/코드 분석/6. moyeo-TestController.java.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/프로젝트/SpringBootTeamMatching/회의록/코드 분석/7. resources-db-migration-V1_init.sql.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/프로젝트/SpringBootTeamMatching/회의록/코드 분석/8. resources-db-migration-V2_create_app_user.sql.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/프로젝트/SpringBootTeamMatching/회의록/코드 분석/9. resources-application.yml.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/프로젝트/SpringBootTeamMatching/회의록/코드 분석/총 정리.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/학습/Spring Boot 기반 사진공유 API 서버 개발/구현/1. 프로젝트 생성 및 서버 기동 확인.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/학습/Spring Boot 기반 사진공유 API 서버 개발/구현/2. 공통 인프라 선구현.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/학습/Spring Boot 기반 사진공유 API 서버 개발/구현/3. 공통 예외 처리 표준화.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/학습/Spring Boot 기반 사진공유 API 서버 개발/구현/4. JWT 인증 인프라 구축(Access Token 기준).md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/학습/Spring Boot 기반 사진공유 API 서버 개발/구현/5. User Domain.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/학습/Spring Boot 기반 사진공유 API 서버 개발/이론/1. 서버란 무엇인가.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/학습/Spring Boot 기반 사진공유 API 서버 개발/이론/2. 프레임워크와 컨트롤러.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/학습/Spring Boot 기반 사진공유 API 서버 개발/이론/3. DI(Dependenct Injection).md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/학습/Spring Boot 기반 사진공유 API 서버 개발/이론/4. 서버 설계 단계(사진 공유 서비스).md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/학습/Spring Boot 기반 사진공유 API 서버 개발/이론/5. 개발 환경 및 프로젝트 초기 설정.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/학습/Spring Boot 기반 사진공유 API 서버 개발/이론/6. 공통 인프라 구현.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/학습/Spring Boot 기반 사진공유 API 서버 개발/이론/7. 핵심 도메인 기능 구현.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/학습/Spring Boot 기반 사진공유 API 서버 개발/이론/8. 운영을 고려한 기능.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/학습/Spring Boot 기반 사진공유 API 서버 개발/이론/9. 빌드와 배포.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/학습/Spring Boot 기반 사진공유 API 서버 개발/학습목표.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/학습/공부방/1. 작업 흐름 정리.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/학습/공부방/Spring/1. 면접 대비.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Backend/학습/공부방/Spring/2. Spring이란.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Baek.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Baek/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_Baek/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_Baek/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_Baek/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_Baek/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_Baek/Java_Baek.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_Baek/p2742/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/p10171/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/p10172/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/p10951_sumAB/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2525_OvenTimer/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2557/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2742/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/p2884/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,24 +148,28 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "GiY5ngKim"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;GiY5ngKim&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/GiY5ngKim/My_Coding.git",
-    "accountId": "9293b71b-d6b4-489c-b631-44933e1f6122"
-  }
-}]]></component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 3
 }</component>
-  <component name="ProjectId" id="3AYdiCYpDul08ty5WtG89VIBhKT" />
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/GiY5ngKim/My_Coding.git&quot;,
+    &quot;accountId&quot;: &quot;9293b71b-d6b4-489c-b631-44933e1f6122&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3BCOtXNhuLhw9mkaztXcg8q3x3I" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -51,20 +179,56 @@
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/kimky/Documents/Git/My_Coding/Java/Java_Baek&quot;,
-    &quot;애플리케이션.Main.executor&quot;: &quot;Run&quot;
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/kimky/Documents/Git/My_Coding/Java/src/Main.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
+    &quot;애플리케이션.Main.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.TestApplication.executor&quot;: &quot;Run&quot;
   }
 }</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.32098.37" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.32098.37" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="디폴트 작업">
-      <changelist id="296aa64c-35b2-4b0d-9578-bea64e1df00b" name="변경" comment="" />
-      <created>1772773562849</created>
+      <changelist id="2325706b-b954-4a54-9bcb-0e9d95b73605" name="변경" comment="" />
+      <created>1773989800648</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1772773562849</updated>
+      <updated>1773989800648</updated>
+      <workItem from="1774326940896" duration="1575000" />
+      <workItem from="1774352358429" duration="4000" />
+      <workItem from="1774577797410" duration="30000" />
+      <workItem from="1774589321954" duration="491000" />
+      <workItem from="1774876909744" duration="837000" />
+      <workItem from="1775181980757" duration="3242000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
